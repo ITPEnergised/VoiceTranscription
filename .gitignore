@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches
+*.sqlite3
+db.sqlite3
+*.db
+
+# Virtual environment
+venv/
+env/
+.venv/
+.idea/
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Development files
+*.pyc
+*.bak
+*.swp
+
+# Media files
+media/
+
+# Static files
+staticfiles/
+
+# Local configuration
+local_settings.py
+
+# Ignore sensitive information
+*.secret
+*.key
+*.pem
+
+# Ignore database configuration
+db_config.json
+
+# Ignore local configuration
+local_config.json
+
+# Ignore development settings
+development_settings.json
+
+# Ignore test database
+test_db.sqlite3
+
+# Ignore production settings
+production_settings.json
+
